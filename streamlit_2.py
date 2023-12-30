@@ -48,9 +48,4 @@ with b3:
     fig4=px.pie(data_frame=df,names="day",values="tip",hole=0.4,color=Cat_1)
     st.plotly_chart(fig4,use_container_width=True)
 
-#l=df["sex"].unique()
-#fig2=px.pie(data_frame=df,names=l,value=df["sex"])
-#sb1.plotly_chart(fig2)
-
-#fig3=px.
 
